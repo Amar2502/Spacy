@@ -1,0 +1,112 @@
+/* Set the body background image */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(space-7709489_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    position: absolute;
+    top: 8px;
+}
+
+.top-left-input {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    padding: 10px 20px;
+    width: 250px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.7); /* Background color for the input */
+    color: #fff; /* Text color */
+    border: none; /* Removes border */
+    border-radius: 5px; /* Rounded corners */
+    outline: none; /* Removes outline on focus */
+    cursor: text; /* Default cursor for input fields */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+/* Change background color on focus */
+.top-left-input:focus {
+    background-color: rgba(255, 255, 255, 0.7); /* Lighter background on focus */
+    color: #000; /* Dark text color on focus */
+}
+
+.top-left-input::placeholder {
+    color: #807f7f; /* Set the placeholder text color to white */
+    opacity: 0.4; /* Ensure the color is fully opaque */
+}
+
+
+/* Style the button */
+.top-left-button {
+    position: absolute;
+    top: 30px;
+    left: 330px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.top-left-button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 90px;
+    margin-left: 30px;
+    width: 400px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(103, 104, 106, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.content {
+    padding-top: 10px;
+}
+
+.info {
+    width: 400px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+pre {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+footer {
+    height: 35px;
+    width: 100%;
+    background-color: #000;
+    color: #7a7777;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
